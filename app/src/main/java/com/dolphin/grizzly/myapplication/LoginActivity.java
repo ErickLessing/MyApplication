@@ -18,7 +18,8 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         //------------------------------------
-
+        TextView username = findViewById(R.id.txtUsername);
+        username.requestFocus();
 
         //List of users
 
